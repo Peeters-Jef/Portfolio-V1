@@ -14,6 +14,7 @@
     ========== */
 
  /* element styles */
+
 h1,
 h2,
 h3,
@@ -21,4 +22,36 @@ p,
 li,
 a, {
     color: var(--clr-primary);
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    margin-bottom: 2.5rem;
+    padding: 3.6rem 2.4rem;
+}
+
+.section {
+    padding-bottom: 2.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+label {
+    display: none;
+}
+
+/* classes */
+
+.btn {
+    border: 0.1rem solid var(--clr-primary);
+    border-radius: 1rem;
+}
+
+.bg-primary {
+    background-color: var(--clr-primary);
 }
