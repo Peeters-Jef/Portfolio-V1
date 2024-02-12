@@ -33,6 +33,7 @@ li {
 }
 
 .section {
+    flex-direction: column;
     padding-bottom: 2.5rem;
 }
 
@@ -60,6 +61,7 @@ p {
 
 .bg-primary {
     background-color: var(--clr-primary);
+    color: var(--clr-neutral);
 }
 
 .flex {

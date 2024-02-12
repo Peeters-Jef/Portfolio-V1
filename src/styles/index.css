@@ -1,17 +1,42 @@
 .about {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
 }
 
+.about h2 {
+    text-align: center;
+    font-size: 3.6rem;
+}
+
 .about__cta {
-    display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 2.5rem;
+    justify-content: center;
 }
+
+.about__cta a {
+    font-size: 2.5rem;
+}
+
 .about__cta .btn {
+    align-items: center;
     gap: 1rem;
+    justify-content: center;
+    min-width: 20.2rem;
     padding: 1rem 3.5rem;
+}
+
+.about p {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+#about-sect {
+    padding-left: 6rem;   
+    padding-right: 6rem;   
+    justify-content: center;
+    align-items: center;
 }
