@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.about__cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.about__cta .btn {
+    gap: 1rem;
+    padding: 1rem 3.5rem;
+}
